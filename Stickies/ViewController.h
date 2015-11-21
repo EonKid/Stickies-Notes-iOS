@@ -2,7 +2,7 @@
 //  ViewController.h
 //  Stickies
 //
-//  Created by Gabe's Laptop on 6/2/15.
+//  Created by Dhruv on 21/11/15.
 //  Copyright (c) 2015 whynoceros. All rights reserved.
 //
 

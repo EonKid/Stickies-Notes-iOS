@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DA629771B274CFC001A2F23 /* Cork_closeup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DA629761B274CFC001A2F23 /* Cork_closeup.jpg */; };
+		5DA629791B274E40001A2F23 /* stickyNew.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA629781B274E40001A2F23 /* stickyNew.png */; };
+		5DE1C1F71B39C76F006EE795 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE1C1F61B39C76F006EE795 /* QuartzCore.framework */; };
+		A14FBABA1B1FB7020023BA10 /* bombIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A14FBAB91B1FB7020023BA10 /* bombIcon.png */; };
 		A16394B11B1E553100ACFC7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A16394B01B1E553100ACFC7E /* main.m */; };
 		A16394B41B1E553100ACFC7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A16394B31B1E553100ACFC7E /* AppDelegate.m */; };
 		A16394B71B1E553100ACFC7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A16394B61B1E553100ACFC7E /* ViewController.m */; };
@@ -14,6 +18,9 @@
 		A16394BC1B1E553100ACFC7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A16394BB1B1E553100ACFC7E /* Images.xcassets */; };
 		A16394BF1B1E553100ACFC7E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A16394BD1B1E553100ACFC7E /* LaunchScreen.xib */; };
 		A16394CB1B1E553200ACFC7E /* StickiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A16394CA1B1E553200ACFC7E /* StickiesTests.m */; };
+		A16394D61B1E576800ACFC7E /* Sticky.m in Sources */ = {isa = PBXBuildFile; fileRef = A16394D51B1E576800ACFC7E /* Sticky.m */; };
+		A16394D91B1E5BA200ACFC7E /* StickyBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A16394D81B1E5BA200ACFC7E /* StickyBoardViewController.m */; };
+		A16394DD1B1E619800ACFC7E /* stickyBg.png in Resources */ = {isa = PBXBuildFile; fileRef = A16394DC1B1E619800ACFC7E /* stickyBg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5DA629761B274CFC001A2F23 /* Cork_closeup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cork_closeup.jpg; sourceTree = "<group>"; };
+		5DA629781B274E40001A2F23 /* stickyNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stickyNew.png; sourceTree = "<group>"; };
+		5DE1C1F61B39C76F006EE795 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A14FBAB91B1FB7020023BA10 /* bombIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bombIcon.png; sourceTree = "<group>"; };
 		A16394AB1B1E553100ACFC7E /* Stickies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stickies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16394AF1B1E553100ACFC7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A16394B01B1E553100ACFC7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +51,11 @@
 		A16394C41B1E553100ACFC7E /* StickiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16394C91B1E553200ACFC7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A16394CA1B1E553200ACFC7E /* StickiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickiesTests.m; sourceTree = "<group>"; };
+		A16394D41B1E576800ACFC7E /* Sticky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sticky.h; sourceTree = "<group>"; };
+		A16394D51B1E576800ACFC7E /* Sticky.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sticky.m; sourceTree = "<group>"; };
+		A16394D71B1E5BA200ACFC7E /* StickyBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickyBoardViewController.h; sourceTree = "<group>"; };
+		A16394D81B1E5BA200ACFC7E /* StickyBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickyBoardViewController.m; sourceTree = "<group>"; };
+		A16394DC1B1E619800ACFC7E /* stickyBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stickyBg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DE1C1F71B39C76F006EE795 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 		A16394A21B1E553100ACFC7E = {
 			isa = PBXGroup;
 			children = (
+				5DE1C1F61B39C76F006EE795 /* QuartzCore.framework */,
 				A16394AD1B1E553100ACFC7E /* Stickies */,
 				A16394C71B1E553200ACFC7E /* StickiesTests */,
 				A16394AC1B1E553100ACFC7E /* Products */,
@@ -81,11 +99,16 @@
 		A16394AD1B1E553100ACFC7E /* Stickies */ = {
 			isa = PBXGroup;
 			children = (
+				A16394DE1B1E61A400ACFC7E /* assets */,
 				A16394B21B1E553100ACFC7E /* AppDelegate.h */,
 				A16394B31B1E553100ACFC7E /* AppDelegate.m */,
 				A16394B51B1E553100ACFC7E /* ViewController.h */,
 				A16394B61B1E553100ACFC7E /* ViewController.m */,
+				A16394D71B1E5BA200ACFC7E /* StickyBoardViewController.h */,
+				A16394D81B1E5BA200ACFC7E /* StickyBoardViewController.m */,
 				A16394B81B1E553100ACFC7E /* Main.storyboard */,
+				A16394D41B1E576800ACFC7E /* Sticky.h */,
+				A16394D51B1E576800ACFC7E /* Sticky.m */,
 				A16394BB1B1E553100ACFC7E /* Images.xcassets */,
 				A16394BD1B1E553100ACFC7E /* LaunchScreen.xib */,
 				A16394AE1B1E553100ACFC7E /* Supporting Files */,
@@ -117,6 +140,17 @@
 				A16394C91B1E553200ACFC7E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A16394DE1B1E61A400ACFC7E /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				5DA629761B274CFC001A2F23 /* Cork_closeup.jpg */,
+				A14FBAB91B1FB7020023BA10 /* bombIcon.png */,
+				A16394DC1B1E619800ACFC7E /* stickyBg.png */,
+				5DA629781B274E40001A2F23 /* stickyNew.png */,
+			);
+			name = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +202,14 @@
 				TargetAttributes = {
 					A16394AA1B1E553100ACFC7E = {
 						CreatedOnToolsVersion = 6.1;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					A16394C31B1E553100ACFC7E = {
 						CreatedOnToolsVersion = 6.1;
@@ -199,9 +241,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DA629771B274CFC001A2F23 /* Cork_closeup.jpg in Resources */,
+				5DA629791B274E40001A2F23 /* stickyNew.png in Resources */,
 				A16394BA1B1E553100ACFC7E /* Main.storyboard in Resources */,
 				A16394BF1B1E553100ACFC7E /* LaunchScreen.xib in Resources */,
 				A16394BC1B1E553100ACFC7E /* Images.xcassets in Resources */,
+				A14FBABA1B1FB7020023BA10 /* bombIcon.png in Resources */,
+				A16394DD1B1E619800ACFC7E /* stickyBg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +267,9 @@
 			files = (
 				A16394B71B1E553100ACFC7E /* ViewController.m in Sources */,
 				A16394B41B1E553100ACFC7E /* AppDelegate.m in Sources */,
+				A16394D61B1E576800ACFC7E /* Sticky.m in Sources */,
 				A16394B11B1E553100ACFC7E /* main.m in Sources */,
+				A16394D91B1E5BA200ACFC7E /* StickyBoardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +393,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Stickies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -355,9 +406,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				INFOPLIST_FILE = Stickies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -414,6 +468,7 @@
 				A16394D01B1E553200ACFC7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A16394D11B1E553200ACFC7E /* Build configuration list for PBXNativeTarget "StickiesTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +477,7 @@
 				A16394D31B1E553200ACFC7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
